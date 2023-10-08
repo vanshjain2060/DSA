@@ -3,7 +3,7 @@ package Vansh.OOPs;
 public class SuperKeyword {
     public static void main(String[] args) {
         Horse h= new Horse();
-        // System.out.println(h.color);
+        System.out.println(h.color);
     }
     
 }
