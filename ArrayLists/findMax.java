@@ -16,6 +16,6 @@ public class findMax {
             // max = max<list.get(i) ? list.get(i) : max;
             max = Math.max(max, list.get(i));
         }
-        System.out.println("Max Element is : " + max);
+        // System.out.println("Max Element is : " + max);
     }
 }
