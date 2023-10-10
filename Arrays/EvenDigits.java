@@ -3,8 +3,8 @@ package Vansh.Arrays;
 public class EvenDigits {
     public static void main(String[] args) {
         int arr[] = {12,536,1758,5};
-        System.out.println(numCount(8));
-        System.out.println(even(8));
+        // System.out.println(numCount(8));
+        // System.out.println(even(8));
         System.out.println(findNumbers(arr));
     }
 
@@ -19,10 +19,17 @@ public class EvenDigits {
     }
 
     public static boolean even(int num) {
-       int yesno = numCount(num);
+       int yesno = numcount(num);
        return yesno % 2==0;
     }
     
+
+    static int numcount(int num) {
+        if(num<0) num=num*-1;
+        if(num==0) return 1;
+        return (int)(Math.log10(num))+1;
+    }
+
 
     public static int numCount(int num) {
         if(num<0) num=num*-1;
