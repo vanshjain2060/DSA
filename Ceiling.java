@@ -15,6 +15,7 @@ public class Ceiling {
         // but what if the target is greater than the greatest number in the array
         if (target > arr[arr.length - 1]) {
             return -1;
+            // updated to github
         }
         int start = 0;
         int end = arr.length - 1;
