@@ -10,7 +10,7 @@ public class SortedAndRoatated {
                 break;
             }
         }
-         System.out.println(bp);
+        System.out.println(bp);
         if(bp == -1) return true;
         if(nums[n-1] > nums[0]) return false;
 
