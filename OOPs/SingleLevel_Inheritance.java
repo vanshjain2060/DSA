@@ -10,7 +10,7 @@ public class SingleLevel_Inheritance {
         System.out.println(shark.color);
     }
 }
-
+// buddy i'm here
 // Base class
 class Animal {
     String color;
