@@ -17,5 +17,6 @@ public class MaxMin {
             temp[k++] = arr[left++];
         }
         return temp;
+
     }    
 }
