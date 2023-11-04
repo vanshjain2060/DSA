@@ -1,7 +1,7 @@
 package Vansh.DivideConcure;
 
 public class searchInRotated {
-    static int search(int arr[] , int target , int s, int e){
+     static int search(int arr[] , int target , int s, int e){
         if(s>e) return -1;
 
         int m = s+(e-s)/2;
