@@ -3,35 +3,38 @@ package Vansh.BackTracking;
 
 public class nQUEENS {
 // this is for nights 
-    static boolean safe(char board[][] , int row, int col) {
+    // static boolean safe(char board[][] , int row, int col) {
         
-        if(row-2>=0 && col-1>=0 ){
-            if(board[row-2][col-1] == 'N') return false;
-        }
-        if(row-2>=0 && col+1<board.length) {
-            if(board[row-2][col+1] == 'N') return false;
-        }
-        if(row-1>=0 && col-2>=0 ){
-            if(board[row-1][col-2] == 'N') return false;
-        }
-        if(row+1<board.length && col-2>=0) {
-            if(board[row+1][col-2] == 'N') return false;
-        }
-        if(row+1<board.length && col+2<board.length ){
-            if(board[row+1][col+2] == 'N') return false;
-        }
-        if(row-1>=0 && col+2<board.length) {
-            if(board[row-1][col+2] == 'N') return false;
-        }
-        // if(row+2<board.length && col-1>=0 ){
-        //     if(board[row+2][col-1] == 'N') return false;
-        // }
-        // if(row+2<board.length && col+1<board.length) {
-        //     if(board[row+2][col+1] == 'N') return false;
-        // }
+    //     if(row-2>=0 && col-1>=0 ){
+    //         if(board[row-2][col-1] == 'N') return false;
+    //     }
+    //     if(row-2>=0 && col+1<board.length) {
+    //         if(board[row-2][col+1] == 'N') return false;
+    //     }
+    //     if(row-1>=0 && col-2>=0 ){
+    //         if(board[row-1][col-2] == 'N') return false;
+    //     }
+    //     if(row+1<board.length && col-2>=0) {
+    //         if(board[row+1][col-2] == 'N') return false;
+    //     }
+    //     if(row+1<board.length && col+2<board.length ){
+    //         if(board[row+1][col+2] == 'N') return false;
+    //     }
+    //     if(row-1>=0 && col+2<board.length) {
+    //         if(board[row-1][col+2] == 'N') return false;
+    //     }
+    //     // if(row+2<board.length && col-1>=0 ){
+    //     //     if(board[row+2][col-1] == 'N') return false;
+    //     // }
+    //     // if(row+2<board.length && col+1<board.length) {
+    //     //     if(board[row+2][col+1] == 'N') return false;
+    //     // }
 
-        return true;
-    }
+    //     return true;
+    // }
+
+
+
 
 // this is for queens
     static boolean isSafe(char board[][], int row, int col) {
@@ -64,7 +67,7 @@ public class nQUEENS {
             return;
         }
         // loop for cloumn
-        for(int j=0; j<board.length; j++) {
+        for(int j=0; j<board[0].length; j++) {
             if(isSafe(board, row, j)) {
                 board[row][j] = 'Q';
                 nQueens(board, row+1); 
