@@ -22,7 +22,7 @@ public class kadanes {
                  if(sum<0) {
                      sum=0;
                  }
-           }
+            }
              return maxSum;
      }
      public static void main(String[] args) {

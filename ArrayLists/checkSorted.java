@@ -33,6 +33,7 @@ public class checkSorted {
         nums.add(5);   
         nums.add(4);   
         nums.add(4);  
+        
         System.out.println(checkSort(nums));
         System.out.println(isMonotonic(nums));
     }
