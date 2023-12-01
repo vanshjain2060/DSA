@@ -25,16 +25,42 @@ public class LL {
 
 
 
-    public void insertLast(int val) {
-        Node node = new Node(val);
-        if(tail == null){
-            head = node;
-            tail = node;
+    public void insrt(int val , int index) {
+        if(index == 0) {
+            insertFirst(val);
+            return;
         }
-        else{
+        if(index == size) {
+            insertLast(val);
+            return;
+        }
+
+        Node temp = head;
+        for(int i=1; i<index; i++) {
+            temp = temp.next;
+        }
+
+        Node node = new Node(val, temp.next);
+        temp.next = node;
+
+        size++;
+    }
+    
+
+
+    public void insertLast(int val) {
+       
+        if(tail == null){
+            // head = node;
+            // tail = node;
+            insertFirst(val);
+            return;
+        }
+        Node node = new Node(val);
+       
             tail.next = node;
             tail = node;
-        }
+        
         size++;
     }
 
@@ -77,7 +103,7 @@ public class LL {
         }
         System.out.println("END");
     }
-
+ 
 
 
     private class Node {

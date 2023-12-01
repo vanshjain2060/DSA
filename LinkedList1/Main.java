@@ -10,14 +10,7 @@ public class Main {
         
         list.deleteLast();
         System.out.println(list.size);
-
-
-
-
-
-
-
-
+        
         list.display();
 }
 }
