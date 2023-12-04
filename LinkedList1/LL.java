@@ -93,8 +93,6 @@ public class LL {
         size--;
     }
 
-
-
     public void display() {
         Node temp = head;
         while(temp != null) {
