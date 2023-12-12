@@ -11,7 +11,7 @@ public class jump {
     }
 
     public static void main(String[] args) {
-        int arr[] = {2,3,1,1,4};
-        System.out.println(canJump(arr));
+        int arr1[] = {2,3,1,1,4};
+        System.out.println(canJump(arr1));
     }
 }

@@ -35,24 +35,16 @@ public class LL {
             return;
         }
 
-        Node temp = head;
-        for(int i=1; i<index; i++) {
-            temp = temp.next;
-        }
-
+        Node temp = get(index);
         Node node = new Node(val, temp.next);
         temp.next = node;
-
         size++;
     }
     
 
 
     public void insertLast(int val) {
-       
         if(tail == null){
-            // head = node;
-            // tail = node;
             insertFirst(val);
             return;
         }
@@ -60,7 +52,7 @@ public class LL {
        
             tail.next = node;
             tail = node;
-        
+            
         size++;
     }
 
@@ -73,25 +65,64 @@ public class LL {
 
 
 
-    public void deleteLast() {
-        Node temp = head;
+    public int delete(int index){
+        if(index == 0) {
+            deleteFirst();
+        }else if(index == size-1){
+            deleteLast();
+        }
+        Node prev = get(index-1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+
+        return val;
+    }
+
+
+
+    public int deleteLast() {
+        // Node temp = head;
         if(size==0) {
             System.out.println("list is empty");
-            return;
         } 
-        if(size ==1) {
+        else if(size ==1) {
             head=null;
             tail =null;
             size =0;
-            return;
         }
-        while(temp.next.next != null) {
-            temp = temp.next;
-        }
+        Node temp=get(size-2);
+        int val = tail.value;
         tail = temp;
         tail.next = null;
         size--;
+
+        return val;
     }
+
+
+
+    public int find(int value){
+        Node temp = head;
+        for(int i=0; i<size; i++) {
+            if(temp.value == value){
+                return i;
+            }
+            temp= temp.next;
+        }
+        return -1;
+    }
+
+    
+
+    public Node get(int index) {
+        Node temp = head;
+        for(int i=0; i<index; i++) {
+            temp=temp.next;
+        }
+        return temp;
+    } 
+
+
 
     public void display() {
         Node temp = head;
