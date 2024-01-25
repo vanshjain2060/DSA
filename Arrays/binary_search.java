@@ -6,7 +6,6 @@ public class binary_search {
        int end=numbers.length;
         for(int i =0;i<numbers.length;i++){
             int mid = (start+end)/2;
-
             // comparing
             if(numbers[mid]==key){
                 return mid;
