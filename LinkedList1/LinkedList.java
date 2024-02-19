@@ -1,42 +1,51 @@
 package Vansh.LinkedList1;
 
 public class LinkedList {
-    static class Node {
+    public static class Node {
         int data;
-        Node next;    // internal pointer
-
-        public Node(int data) {      // Constructor
+        Node next;
+        
+        public Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
-    Node head;
-    Node tail;
+    public Node head;
+    public Node tail;
+   
 
     public void addFirst(int data) { 
-        /* is line me static nhi like hai q ki staic field 
-        ke andar sirf staic he declare  ho sakta hai to vo 
-        by default he staic le  lega  agar kuch  nhi likha 
-        huaa hai to */
-
-        // Step1 - create new node
+        // s1 create new node
         Node newNode = new Node(data);
-        
+        // base case
         if(head == null) {
             head = tail = newNode;
             return;
         }
-        // Step2 - newNode next = head
+        //s2 newNode next = head
         newNode.next = head;
-
-        // step3 - head = newNode
+        //s3 head will be at newNode
         head = newNode;
     }
 
+
+    public void display(){
+        Node temp = head; 
+        System.out.print("START->");
+        while(temp != null) {
+            System.out.print(temp.data + "->");
+            temp = temp.next;
+        }
+        System.out.println("END");
+    }
+
+
+   
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
-        ll.addFirst(1);
-        ll.addFirst(221);
-        System.out.println(ll.tail.data);
+        ll.addFirst(5);
+        ll.addFirst(2);
+        ll.addFirst(40);
+        ll.display();
     }
 }

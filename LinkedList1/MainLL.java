@@ -8,7 +8,8 @@ public class MainLL {
         list.insertFirst(5);
         list.insrt(16, 1);
         list.display();
-        
+        LinkedList ll = new LinkedList();
+        ll.addFirst(3);
         System.out.println(list.deleteLast());
         list.display();
         list.insertLast(10);
