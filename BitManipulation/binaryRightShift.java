@@ -8,7 +8,16 @@ public class binaryRightShift {
     */
 
     public static void main(String[] args) {
-        System.out.println(6>>1);
+        // int a=51;
+        // // a>>=1;
+        // // a =a>> 2;
+        // a /=4;
+        // System.out.println(a);
+        // System.out.println(51>>2);
+        // System.out.println(12<<2);
+        int a = -2147483648;
+        int b= -1;
+        System.out.println(a/b);
     }
 }
 /*  here the formula comes out to be
