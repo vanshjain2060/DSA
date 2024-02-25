@@ -28,15 +28,15 @@ public class MergeSort {
         int k = 0; // iterator for temp arr
 
         while(i <= mid && j <= ei){
-            if(arr[i] < arr[j]) {
-                temp[k] = arr[i];
-                i++;
-            }else{
-                temp[k] = arr[j];
-                j++;
-            }
-            k++;
-             //    temp[k++]= arr[i]<arr[j]? arr[i++] : arr[j++];
+            // if(arr[i] < arr[j]) {
+            //     temp[k] = arr[i];
+            //     i++;
+            // }else{
+            //     temp[k] = arr[j];
+            //     j++;
+            // }
+            // k++;
+            temp[k++]= arr[i]<arr[j]? arr[i++] : arr[j++];
         }
 
         // for left part

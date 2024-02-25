@@ -1,10 +1,10 @@
-package Vansh.LinkedList1;
+package Vansh.LinkedList2;
 
 public class LinkedList {
-    public static class Node {
+    public static class Node{
         int data;
         Node next;
-        
+
         public Node(int data) {
             this.data = data;
             this.next = null;
@@ -87,26 +87,7 @@ public class LinkedList {
         System.out.println(val);
         size--;
     }
-
-    public int Search(int key) {
-        Node temp = head;
-        int index=0;
-        while(temp != null) {
-            if(temp.data == key) return index;
-            temp = temp.next;
-            index++;
-        }
-        return -1;
-    }
-
-    public int RecursionSearch(int key, Node head) {
-        if(head == null) return -1;
-        if(head.data == key) return 0;
-        int idx = RecursionSearch(key, head.next);
-        if(idx == -1) return idx;
-        else return idx+1;
-    }
-
+    
     public void reverse(){
         Node p = null;
         Node c = head;
@@ -160,25 +141,143 @@ public class LinkedList {
         size--;
         return;
     } 
-
+   
+    // this is special find mid function for merge sort 
+    // in which fast is stared from head.next so that
+    // all the time we get the mid node which is the last
+    // node of the left linked list
     public Node findMid(Node head) {
         Node slow = head;
-        Node fast = head;
+        Node fast = head.next;
 
-        while(fast.next!=null && fast.next.next != null) {
+        while(fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
         return slow;
     }
 
-    public boolean checkPallindrome() {
-        // basae case
-        if(head == null || head.next == null) return true;
-        //step 1 : find the middle node
+
+
+    public static void main(String[] args) {
+        LinkedList ll = new LinkedList();
+        // head = new Node(1);
+        // head.next = new Node(2);
+        // head.next.next =head;
+        // // head.next.next.next = head.next;
+        ll.addLast(1);
+        ll.addLast(2);
+        ll.addLast(3);
+        ll.addLast(4);
+        ll.addLast(5);
+        // 5->4->3->2->1
+        ll.display();
+        ll.zigZag();
+        ll.display();
+        // System.out.println(isCycle());
+        // removeCycle();
+        // System.out.println(isCycle());
+    }
+
+
+
+    public static boolean isCycle(){
+        Node slow = head;
+        Node fast = head;
+        while(fast != null  && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast) return true;
+        }
+        return false;
+    }
+
+    public  void removeCycle() {
+        // detect the cycle
+        Node s = head;
+        Node f = head;
+        boolean cycle = false;
+        while(f != null && f.next != null) {
+            s = s.next;
+            f = f.next.next;
+            if(s == f) {
+                cycle = true;
+                break;
+            }
+        }
+        if(cycle == false) return;
+
+        // find meeting point
+        s = head;
+        Node prev = f;
+        while(s != f) {
+            s = s.next;
+            prev = f;
+            f = f.next; 
+        }
+        // remove cycle by prev.next = null
+        prev.next = null;
+    }
+
+    public  Node mergeSort(Node head) {
+        // Base Case
+        if(head == null || head.next == null) {
+            return head;
+        }
+        // find mid
         Node mid = findMid(head);
+
+        // left and right merge sort calls
+        Node rightHead = mid.next;
+        mid.next = null;
+        Node newLeft = mergeSort(head);
+        Node newRight =  mergeSort(rightHead);
+        
+        // Merge 
+        return merge(newLeft, newRight);
+    }
+
+    public static Node merge(Node h1, Node h2) {
+        Node mergedll = new Node(-1);
+        Node temp = mergedll;
+
+        while(h1 != null && h2 != null) {
+            if(h1.data <= h2.data) {
+                temp.next = h1;
+                h1 = h1.next;
+            } else {
+                temp.next = h2;
+                h2 = h2.next;
+            }
+            temp = temp.next;
+        }
+        while(h1 != null) {
+            temp.next = h1;
+            h1 = h1.next;
+            temp = temp.next;
+        }
+        while(h2 != null) {
+            temp.next = h2;
+            h2 = h2.next;
+            temp = temp.next;
+        }
+        return mergedll.next;
+    }
+
+    public void zigZag() {
+    //    //step 1 : find the middle node
+    //     Node s = head;
+    //     Node f = head.next;
+    //     while(f != null && f.next != null) {
+    //         s = s.next;
+    //         f = f.next.next;
+    //     }
+    //     Node mid = s;
+    Node mid = findMid(head);
+
         //step 2 : reverse the 2nd half
-        Node c = mid;
+        Node c = mid.next;
+        mid.next = null;
         Node p = null;
         while(c != null) {
             Node n = c.next;
@@ -188,36 +287,18 @@ public class LinkedList {
         }
         Node right = p;
         Node left = head;
+        Node nl , rl;
+       
+        while(left != null && right != null) {
+            nl = left.next;
+            rl = right.next;
 
-        //step 3 : compair left data with right data
-        while(left != null) {
-            if(left.data != right.data) return false;
-            left = left.next;
-            right = right.next;
+            left.next = right;
+            right.next = nl;
+
+            left = nl;
+            right = rl;
         }
-        return true;
     }
     
-       public static int btod(int b , int pow) {
-    // while(b>0) {
-    //     return ((b%10)*(int)Math.pow(2 , pow) + btod(b/10, pow+1));
-    // }
-    return 0;
-   }
-    
-    public static void main(String[] args) {
-        LinkedList ll = new LinkedList();
-        ll.addFirst(40);
-        ll.addFirst(4);
-        ll.addFirst(5);
-        ll.addLast(40);
-        ll.addLast(4);
-        ll.addLast(5);
-        ll.display();
-        // System.out.println(ll.Search(409));
-        // System.out.println(ll.RecursionSearch(409, head));
-        // ll.reverse();
-        // ll.display();
-        System.out.println(ll.checkPallindrome());
-    }
 }
