@@ -198,6 +198,25 @@ public class LinkedList {
         return true;
     }
     
+    public void Swap(int a, int f) {
+        Node ta = head, tf = head;
+        for(int i=1; i<a; i++){
+            ta = ta.next;
+        }
+        for(int i=1; i<f-1; i++){
+            tf = tf.next;
+        } 
+        Node tan = ta.next;
+        Node tfn = tf.next;
+
+        ta.next = tfn;
+        Node temp = tfn.next;
+        tfn.next = tf;
+        // tf.next = tan;
+        tan.next = temp;
+       
+    }
+
        public static int btod(int b , int pow) {
     // while(b>0) {
     //     return ((b%10)*(int)Math.pow(2 , pow) + btod(b/10, pow+1));
@@ -207,17 +226,18 @@ public class LinkedList {
     
     public static void main(String[] args) {
         LinkedList ll = new LinkedList();
-        ll.addFirst(40);
-        ll.addFirst(4);
-        ll.addFirst(5);
-        ll.addLast(40);
+        // ll.addFirst(40);
+        // ll.addFirst(4);
+        // ll.addFirst(5);
+        ll.addLast(1);
+        ll.addLast(2);
+        ll.addLast(3);
         ll.addLast(4);
-        ll.addLast(5);
         ll.display();
         // System.out.println(ll.Search(409));
         // System.out.println(ll.RecursionSearch(409, head));
         // ll.reverse();
         // ll.display();
-        System.out.println(ll.checkPallindrome());
+        // System.out.println(ll.checkPallindrome());
     }
 }

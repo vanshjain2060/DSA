@@ -75,6 +75,21 @@ public class DLL {
         return del;
     }
 
+    public void reverse() {
+        Node prev = null;
+        Node curr = head;
+        Node nxt ;
+        tail = curr;
+        while(curr != null) {
+            nxt = curr.next;
+            curr.next = prev;
+            curr.prev = nxt;
+            prev = curr;
+            curr = nxt;
+        }
+        head = prev;
+    }
+
     public void Print(){
         Node temp = head; 
         if(temp == null) {
@@ -109,9 +124,7 @@ public class DLL {
         dll.addFirst(1);
         dll.addLast(4);
         dll.Print();
-        System.out.println(dll.removeFirst());;
-        dll.Print();
-        System.out.println(dll.removeLast());
+        dll.reverse();
         dll.Print();
     }
 }
