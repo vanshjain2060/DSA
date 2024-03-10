@@ -25,9 +25,9 @@ public class MaxArea {
         for(int i=arr.length-1; i>=0; i--) {
             while(!s.isEmpty() && arr[i] <= arr[s.peek()]) s.pop();            
             if(s.isEmpty()) nsr[i] = arr.length;
-            else nsr[i] = s.peek(); System.out.print(nsr[i] + "  ");
+            else nsr[i] = s.peek();
             s.push(i);
-        }System.out.println();
+        }
         return nsr;
     }
 

@@ -1,11 +1,16 @@
 package Vansh.Stacks;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 public class VaildParentheses {
     public static void main(String[] args) {
-        String str = "({})[]";
-        System.out.println(Check(str));
+        String s = "1010";
+        char[] ch = s.toCharArray();
+        Arrays.sort(ch);
+        for(char c : ch) {
+            System.out.print(c + "  ");
+        }
     }
 
     private static boolean Check(String str) {
@@ -25,4 +30,5 @@ public class VaildParentheses {
         if(!s.isEmpty()) return false;
         return true;
     }
+
 }
