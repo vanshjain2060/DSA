@@ -5,13 +5,13 @@ public class DeQue {
     static class Queue {
         static Deque<Integer> d = new LinkedList<>();
 
-        public static void add(int data) {
+        public void add(int data) {
             d.addLast(data);
         }
-        public static int remove() {
+        public int remove() {
             return d.removeFirst();
         }
-        public static int peek() {
+        public int peek() {
             return d.peekFirst();
         }
     }
@@ -19,26 +19,26 @@ public class DeQue {
     static class Stack{
         static Deque<Integer> d = new LinkedList<>();
 
-        public static void push(int data) {
+        public void push(int data) {
             d.addLast(data);
         }
-        public static int pop() {
+        public int pop() {
             return d.removeLast();
         }
-        public static int peek() {
+        public int peek() {
             return d.peekLast();
         }
     }
     public static void main(String[] args) {
-        // Queue a = new Queue();
-        Stack a = new Stack();
-        a.push(1);
-        a.push(2);
-        a.push(3);
+        Queue a = new Queue();
+        // Stack a = new Stack();
+        a.add(1);
+        a.add(2);
+        a.add(3);
         System.out.println("peek = " + a.peek());
-        System.out.println(a.pop());
-        System.out.println(a.pop());
-        System.out.println(a.pop());
+        System.out.println(a.remove());
+        System.out.println(a.remove());
+        System.out.println(a.remove());
     }
     
 }
