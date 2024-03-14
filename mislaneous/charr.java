@@ -13,9 +13,12 @@ public class charr {
     public static void main(String[] args) {
         // Write your code here
         // Scanner sc = new Scanner(System.in);
-        System.out.println("enter ");
-        System.out.println(dataTypes("Integer"));
+        // System.out.println("enter ");
+        // System.out.println(dataTypes("Integer"));
 
+        char c = '8';
+        char s = '6';
+        System.out.println(c < s);
         
         // String str[] = {Integer, Long, Float, Double, Character};
 

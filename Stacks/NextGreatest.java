@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class NextGreatest {
     public static void main(String[] args) {
-        int arr[] = {6, 8, 0, 1, 3};
+        int arr[] = {1, 5, 3, 4, 2};
         int nextGreatestRight[] = new int[arr.length];
         int nextGreatestLeft[] = new int[arr.length];
 
@@ -18,11 +18,12 @@ public class NextGreatest {
 
     private static void GreatestRight(int[] arr, int[] nextGreatest) {
         Stack<Integer> s = new Stack<>();
-        for(int i=arr.length-1; i>=0; i--) {
-            while(!s.isEmpty() && arr[i] >= arr[s.peek()]) s.pop();
-            if(s.isEmpty()) nextGreatest[i] = -1;
-            else nextGreatest[i] = arr[s.peek()];
-            s.push(i);
+        int n = arr.length;
+        for(int i=2*n-2; i>=0; i--) {
+            while(!s.isEmpty() && arr[i%n] >= arr[s.peek()]) s.pop();
+            if(s.isEmpty()) nextGreatest[i%n] = -1;
+            else nextGreatest[i%n] = arr[s.peek()];
+            s.push(i%n);
         }
     }
 
