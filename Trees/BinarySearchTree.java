@@ -1,4 +1,4 @@
-package Vansh.Trees;
+package Vansh.TREES;
 
 public class BinarySearchTree {
     
