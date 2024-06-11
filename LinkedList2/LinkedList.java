@@ -265,15 +265,8 @@ public class LinkedList {
     }
 
     public void zigZag() {
-    //    //step 1 : find the middle node
-    //     Node s = head;
-    //     Node f = head.next;
-    //     while(f != null && f.next != null) {
-    //         s = s.next;
-    //         f = f.next.next;
-    //     }
-    //     Node mid = s;
-    Node mid = findMid(head);
+
+        Node mid = findMid(head);
 
         //step 2 : reverse the 2nd half
         Node c = mid.next;

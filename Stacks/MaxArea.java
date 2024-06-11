@@ -16,6 +16,13 @@ public class MaxArea {
             int currArea = heights[i] * (nsr[i] - nsl[i] -1);
             maxA = Math.max(maxA, currArea);
         }
+        // for(int i : nextSmallestRight(heights)) {
+        //     System.out.print(i + " ");
+        // }
+        // System.out.println();
+        // for(int i : nextSmallestLeft(heights)) {
+        //     System.out.print(i + " ");
+        // }System.out.println();
         return maxA;
     }
 
