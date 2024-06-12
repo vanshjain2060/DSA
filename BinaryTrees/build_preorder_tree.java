@@ -70,6 +70,13 @@ public class build_preorder_tree {
             }
         }
     
+        public static int height(Node root) {
+            if(root == null) return 0;
+            int lh = height(root.left);
+            int rh = height(root.right);
+            return Math.max(lh, rh) + 1;
+        }
+
     }
 
 
@@ -78,5 +85,6 @@ public class build_preorder_tree {
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
         tree.levelOrder(root);
+        System.out.println("Height of the root Node of the tree is: " + tree.height(root));
     }
 }
