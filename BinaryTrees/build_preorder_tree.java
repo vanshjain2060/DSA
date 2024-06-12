@@ -83,15 +83,23 @@ public class build_preorder_tree {
             int rightCount = countNode(root.right);
             return leftCount + rightCount + 1;
         }
+    
+        public static int sum(Node root) {
+            if(root == null) return 0;
+            int leftSum = sum(root.left);
+            int rightSum = sum(root.right);
+            return (leftSum + rightSum + root.data);
+        }
     }
 
 
     public static void main(String[] args) {
-        int[] nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, 6, -1, -1, 7, -1, 9, -1, -1};
+        int[] nodes = {1, 2, 4, -1, -1, 5, -1, -1, 3, 6, -1, -1, 7, -1, 8, -1, -1};
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
         tree.levelOrder(root);
         System.out.println("Number of nodes present in the tree is: " + tree.countNode(root));
         System.out.println("Height of the root Node of the tree is: " + tree.height(root));
+        System.out.println("Total sum of all the Nodes of the tree is: " + tree.sum(root));
     }
 }
