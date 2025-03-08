@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 
 class linearsearch {
     public static void main(String[] args) {

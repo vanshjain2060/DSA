@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 
 public class jump {
     public static boolean canJump(int[] nums) {

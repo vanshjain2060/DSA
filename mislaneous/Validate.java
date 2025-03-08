@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 
 public class Validate {
     public static void main(String[] args) {

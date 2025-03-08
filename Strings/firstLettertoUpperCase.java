@@ -1,4 +1,4 @@
-package Vansh.Strings;
+
 
 public class firstLettertoUpperCase {
     public static String toUpperCase(String str){

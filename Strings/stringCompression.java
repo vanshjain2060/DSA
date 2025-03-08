@@ -1,4 +1,3 @@
-package Vansh.Strings;
 
 public class stringCompression {
     public static String compress(String str) {

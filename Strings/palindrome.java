@@ -1,4 +1,3 @@
-package Vansh.Strings;
 
 import java.util.Scanner;
 

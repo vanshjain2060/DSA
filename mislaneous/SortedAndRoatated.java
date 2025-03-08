@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 
 public class SortedAndRoatated {
     public static boolean check(int[] nums) {

@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 
 public class direction {
     static int isPossible(int n, int m, String s){

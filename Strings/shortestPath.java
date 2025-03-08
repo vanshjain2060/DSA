@@ -1,4 +1,4 @@
-package Vansh.Strings;
+// package Vansh.Strings;
 
 // import java.util.Scanner;
 
@@ -34,7 +34,7 @@ public class shortestPath {
         // System.out.println("Enter your directions here");
         // try (Scanner sc = new Scanner(System.in)) {
         //   String path = sc.nextLine();
-        String path ="WNES";
+        String path ="WNESS";
             System.out.println(getShortestPath(path));
         }
 }

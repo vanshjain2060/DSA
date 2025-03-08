@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 public class hollowR {
     public static void hollowRec(int row , int col) {
         for(int i=1;i<=row;i++) {

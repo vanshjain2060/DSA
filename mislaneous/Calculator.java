@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
 import java.util.*;
 public class Calculator {
    public static void main(String args[]){

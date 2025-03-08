@@ -1,4 +1,3 @@
-package Vansh.Strings;
 // jis bhee program ko string se solve karte hai unko stringbulider se bhee kar sakte hai
 public class stringBuilder {
     public static void main(String[] args) {

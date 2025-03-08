@@ -1,4 +1,4 @@
-package Vansh.mislaneous;
+// package Vansh.mislaneous;
  class newwduplicate{
     
    public static int remove_duplicate(int A[],int N){
