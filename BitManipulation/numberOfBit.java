@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class numberOfBit {
     // Time Complexity will by log(n)

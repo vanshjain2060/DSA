@@ -1,4 +1,3 @@
-package Vansh.Arrays; 
 public class question_1 {
  public static boolean true_false(int nums[]){
     for(int i =0; i<nums.length; i++){

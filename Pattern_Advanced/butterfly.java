@@ -1,4 +1,3 @@
-package Vansh.Pattern_Advanced;
 // [LOGIC] Pattern ko do part me break kiya hai 
 // upper part then next part me uska mirror kar denge
 // har line me pahele kuch * print honge fir _ and then again *

@@ -1,5 +1,3 @@
-package Vansh.LinkedList1;
-
 public class DLL {
     public class Node {
         int data;

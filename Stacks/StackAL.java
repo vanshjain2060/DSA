@@ -1,5 +1,3 @@
-package Vansh.Stacks;
-
 import java.util.ArrayList;
 
 public class StackAL {

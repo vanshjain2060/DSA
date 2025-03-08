@@ -1,7 +1,3 @@
-// package Vansh.Strings;
-
-// import java.util.Scanner;
-
 public class shortestPath {
     public static float getShortestPath(String path){
         int x=0 , y=0;

@@ -1,4 +1,3 @@
-package Vansh.DivideConcure;
 
 public class MergeSort {
     

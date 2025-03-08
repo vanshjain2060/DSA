@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class Primes_in_range {
     //we are using isPrime as a helper function in this question

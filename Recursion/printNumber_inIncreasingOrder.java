@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class printNumber_inIncreasingOrder {
     
     public static void printIncreasing(int n) {

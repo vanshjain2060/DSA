@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class largest {
     public static int getLargest(int numbers[]){
@@ -20,14 +19,3 @@ public class largest {
        System.out.println("largest value is : "+getLargest(numbers));
     }
 }
-/*
-  int largest=Integer.MIN_VALUE;
-   for(int i=0;i<numbers.length;i++){
-              if(numbers[i]>largest){
-                largest = numbers[i];
-              }
-    }
-  
-  
-  
- */

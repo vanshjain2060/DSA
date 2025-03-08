@@ -1,4 +1,3 @@
-
 public class printLargestString {
     public static void main(String[] args) {
         String fruits[] = {"apple" , "mango" , "banana"};
@@ -12,4 +11,3 @@ public class printLargestString {
          System.out.println(largest);
     }    
 }
- 

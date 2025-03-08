@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 import java.util.Scanner;
 
 public class InputKey {

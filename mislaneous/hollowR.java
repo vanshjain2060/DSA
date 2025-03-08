@@ -1,9 +1,8 @@
-// package Vansh.mislaneous;
 public class hollowR {
     public static void hollowRec(int row , int col) {
         for(int i=1;i<=row;i++) {
              for(int k=(i-1);k>=1;k--){
-                System.out.println("  ");
+                System.out.print("  ");
                }
             for(int j=1;j<=col;j++) {
               
@@ -18,7 +17,7 @@ public class hollowR {
         }
     }
 public static void main(String[] args) {
-    hollowRec(4, 3);
+    hollowRec(4, 5);
 }
 }
 

@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class checkArray_isSorted {
     public static boolean isSorted(int arr[] , int i) {
         if(i==arr.length-1) {

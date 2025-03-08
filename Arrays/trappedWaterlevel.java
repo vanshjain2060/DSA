@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class trappedWaterlevel {
     public static int trappedRainwater(int height[]){

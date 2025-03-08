@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class Method_Overrding {
     public static void main(String[] args) {
         Deer d = new Deer();

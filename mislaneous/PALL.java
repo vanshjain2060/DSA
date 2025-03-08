@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 public class PALL {
     public static void main(String[] args) {
         System.out.println(tf("racecar"));

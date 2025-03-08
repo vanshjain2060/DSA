@@ -1,4 +1,3 @@
-package Vansh.Pattern_Advanced;
 //[Logic] is Pattern me har line me pahele kuch _ print hogi and then * 
 public class solid_rombus_pattern {
   public static void rombus_Pattern(int n){

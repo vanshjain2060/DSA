@@ -1,4 +1,3 @@
-package Vansh.OOPs;
 class Getters_Setters {
     public static void main(String[] args) {
         Pen p1 = new Pen();

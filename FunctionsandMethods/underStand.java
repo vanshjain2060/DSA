@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class underStand {
     /*  public static boolean isPrime(int n){

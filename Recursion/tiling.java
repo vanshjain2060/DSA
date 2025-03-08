@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class tiling {
     public static int tilingPorblem(int n) {// 2 * n is the size of the floor
         if(n == 0 || n == 1){

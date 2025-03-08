@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class checkNumberIs2PowerOf_n {
     public static boolean isPowerOfTwo(int n) {

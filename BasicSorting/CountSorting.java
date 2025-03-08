@@ -1,4 +1,3 @@
-package Vansh.BasicSorting;
 
 public class CountSorting {
     public static void countingSort(int arr[]) {

@@ -1,5 +1,3 @@
-package Vansh.TREES;
-
 public class BinarySearchTree {
     
     public class Node {

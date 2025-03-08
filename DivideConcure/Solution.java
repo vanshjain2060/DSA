@@ -1,7 +1,6 @@
-package Vansh.DivideConcure;
 import java.util.*;
 public class Solution {
-    public static List< Integer > sortedArray(int []a, int []b) {
+    public static List<Integer> sortedArray(int[] a, int[] b) {
         int i=0 , j=0;
         List<Integer> List = new ArrayList<>();
         while(i<a.length && j<b.length) {

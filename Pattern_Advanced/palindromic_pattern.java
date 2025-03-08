@@ -1,5 +1,3 @@
-package Vansh.Pattern_Advanced;
-
 public class palindromic_pattern {
     public static void palPattern(int n){
         for(int i=1;i<=n;i++){

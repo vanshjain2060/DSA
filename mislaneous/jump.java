@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 public class jump {
     public static boolean canJump(int[] nums) {
        int reachable = 0;

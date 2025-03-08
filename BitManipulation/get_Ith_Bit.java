@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class get_Ith_Bit {
     public static int getIthbit(int number , int i) {

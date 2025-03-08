@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class PrintAllOccurence {
     public static void printOccruence(int i , int key , int arr[]){
         // Base Case 

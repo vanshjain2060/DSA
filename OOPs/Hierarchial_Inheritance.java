@@ -1,7 +1,4 @@
-package Vansh.OOPs;
-
 public class Hierarchial_Inheritance {
-   
     public static void main(String[] args) {
         Mammal monkey = new Mammal();
         Fish shark = new Fish();

@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class FindLengthOfString {
     public static void lengthOfSting(int i , String str){
        // Edge Case

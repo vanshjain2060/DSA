@@ -1,4 +1,3 @@
-package Vansh.OOPs;
 public class getter {
     public static void main(String[] args) {
     }

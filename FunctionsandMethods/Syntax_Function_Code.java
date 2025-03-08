@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class Syntax_Function_Code {
     public static void printHW() {   //agar void nhi hoga kuch or hoga to return likhna jaruri hota hai 

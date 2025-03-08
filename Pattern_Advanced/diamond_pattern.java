@@ -1,4 +1,3 @@
-package Vansh.Pattern_Advanced;
 // [Logic] jab bhee ham koee pattern ko reverse karte hai to ham bas outer loop ko he change
 // karte hai baki uske andar ka jo bhee code hoga usko disturbe nhi karenge 
 public class diamond_pattern {

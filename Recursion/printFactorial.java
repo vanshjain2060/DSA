@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class printFactorial {
     public static int Fact(int n) {

@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class findSingle {
 
     public static int find(int arr[]) {

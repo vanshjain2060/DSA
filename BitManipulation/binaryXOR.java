@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class binaryXOR {
     /* yeh XOR gate ki tarah output dega matlab

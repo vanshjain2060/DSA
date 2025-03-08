@@ -1,5 +1,3 @@
-package Vansh.TREES;
-
 class AVL {
 
     public class Node {

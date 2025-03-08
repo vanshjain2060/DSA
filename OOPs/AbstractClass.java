@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class AbstractClass {
     public static void main(String[] args) {
 

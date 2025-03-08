@@ -1,9 +1,3 @@
-package Vansh.OOPs;
-/* q ki yeh sab same package me hai is liye 
- * ek bar koee name ka constructor ban gya to system usko
- * next file me bhee recognise kar rhaa hai isly 
- * har baar construcot ke name ki spelling differant use ki hai
- */
 public class Copy_Constructor {
     public static void main(String[] args) {
         Studentss s1 = new Studentss();

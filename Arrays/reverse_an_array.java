@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class reverse_an_array {
     public static void reverse(int numbers[]){

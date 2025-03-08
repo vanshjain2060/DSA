@@ -1,5 +1,3 @@
-package Vansh.Queues;
-
 public class QueueLL {
     static class Node {
         int data;

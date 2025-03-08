@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class friendsPairing {
     public static int pairing(int n){
         // Base Case 

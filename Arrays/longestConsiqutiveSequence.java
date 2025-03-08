@@ -1,8 +1,7 @@
-package Vansh.Arrays;
 import java.util.Arrays;
 public class longestConsiqutiveSequence {
     
-    public int longestConsecutive(int[] nums) {
+    public static int longestConsecutive(int[] nums) {
         Arrays.sort(nums);
         int count =1;
         if(nums.length == 0) return 0;
@@ -16,7 +15,8 @@ public class longestConsiqutiveSequence {
     }
 
     public static void main(String[] args) {
-        // int nums[] = {1,0,2,1};
+        int nums[] = {1,0,2,1};
+        System.out.println(longestConsecutive(nums));
     }
 }
     

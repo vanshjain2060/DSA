@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class PrintDigitToWords {
     public static void Printletters(int number){

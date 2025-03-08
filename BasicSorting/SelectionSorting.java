@@ -1,4 +1,3 @@
-package Vansh.BasicSorting;
 
 public class SelectionSorting {
     public static void selectionSort(int arr[]){

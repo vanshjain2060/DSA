@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class printNumber_inDecreasingOrder {
      

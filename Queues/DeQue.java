@@ -1,5 +1,5 @@
-package Vansh.Queues;
-import java.util.*;;
+import java.util.*;
+import java.util.LinkedList;
 public class DeQue {
     //Implementing Queue using Deque
     static class Queue {

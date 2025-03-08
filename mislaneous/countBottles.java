@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-// 
 public class countBottles {
     public static void main(String[] args) {
         int count = 0;

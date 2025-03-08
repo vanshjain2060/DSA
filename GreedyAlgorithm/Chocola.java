@@ -1,4 +1,3 @@
-package Vansh.GreedyAlgorithm;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -6,7 +5,6 @@ import java.util.Collections;
 
 public class Chocola {
     public static void main(String[] args) {
-        int n = 4 , m = 6; // these are peices  (n peices in a vertical column)  (m peices in a horizontal row)
         Integer verticalCost[] = {2, 1, 3, 1, 4}; // n-1 has to be less than 1 than peices
         Integer horizontalCost[] = {4, 1, 2};       // m-1 has to be less than 1 than peices
 

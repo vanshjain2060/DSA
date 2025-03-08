@@ -1,4 +1,3 @@
-package Vansh.BackTracking;
 
 public class allPermutaion {
 

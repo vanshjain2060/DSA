@@ -1,5 +1,3 @@
-package Vansh.TREES;
-
 class SegmentTree {
 
     private static class Node {

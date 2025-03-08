@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 public class AlternatingGroups {
 
 

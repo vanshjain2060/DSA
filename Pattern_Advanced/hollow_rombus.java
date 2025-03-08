@@ -1,4 +1,3 @@
-package Vansh.Pattern_Advanced;
 // [Logic] hollow rectangle ke code ke pdhele __ ke liye code likh diya hai
 public class hollow_rombus {
     public static void holRom(int n){

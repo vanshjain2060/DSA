@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.*;
 public class Print_Reverse_of_a_num {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class sumOfDigit {
     public static void main(String[] args) {

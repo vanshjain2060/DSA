@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class print_subArrays {
     public static void printsubarrays(int numbers[]){

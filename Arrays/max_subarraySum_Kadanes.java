@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 // this is the most effective code
 public class max_subarraySum_Kadanes {
     public static void printMaxsum(int numbers[]){

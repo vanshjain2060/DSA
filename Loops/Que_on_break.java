@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.*;
 public class Que_on_break {
    public static void main(String[] args) {

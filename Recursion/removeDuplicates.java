@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class removeDuplicates {
     public static void removeDup(String str , int i , StringBuilder newStr , boolean map[]) {

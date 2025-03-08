@@ -1,4 +1,3 @@
-package Vansh.Pattern;
 public class Half_Piramid_Pattern {
     public static void main(String[] args) {
     //     int n = 5;

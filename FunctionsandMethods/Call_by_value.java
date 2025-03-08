@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class Call_by_value {
     // swap

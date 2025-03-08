@@ -1,5 +1,5 @@
-package Vansh.Queues;
 import java.util.*;
+import java.util.LinkedList;
 public class FirstNonRepeating {
     public static void nonRepeating(String s) {
         int arr[] = new int[26];

@@ -1,4 +1,4 @@
-package Vansh.BinaryTrees;
+
 import java.util.*;
 // comment down to exeplaination of the code so that i can revise and understand the following code down the line in the future
 public class lowestCommonAncestor {

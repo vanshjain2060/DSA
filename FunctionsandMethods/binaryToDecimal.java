@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class binaryToDecimal {
     public static void binToDec(int BinNum){

@@ -1,5 +1,3 @@
-package Vansh.BackTracking;
-
 
 public class nQUEENS {
 // this is for nights 

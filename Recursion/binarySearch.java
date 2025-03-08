@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class binarySearch {
     static int binSearch(int[] arr , int key, int start , int end) {
         while(start<=end){

@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.*;
 public class loops_question_3 {
     public static void main(String[] args) {
@@ -14,5 +13,5 @@ public class loops_question_3 {
       }
         } 
      }
-          
+
 

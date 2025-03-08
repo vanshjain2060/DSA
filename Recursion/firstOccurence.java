@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class firstOccurence {
     public static int first(int arr[],int i ,int key){
         if(i == arr.length){

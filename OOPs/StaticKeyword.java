@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class StaticKeyword {
     public static void main(String[] args) {
     //     Studentt s1 = new Studentt();

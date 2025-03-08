@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class Hybrid_Inheritance {
     public static void main(String[] args) {
         Human Indian = new Human();

@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class binaryStringProblem {
     public static void printBinary( String str , int lastPlace , int n){
         // Base Case

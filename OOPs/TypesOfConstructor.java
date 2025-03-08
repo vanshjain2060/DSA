@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class TypesOfConstructor {
     public static void main(String[] args) {
         Students s1 = new Students();

@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 // Basically not gate he hai
 // and yeh single bit par he lagta hai
 public class binaryOnesComplement {

@@ -1,4 +1,4 @@
-package Vansh.GreedyAlgorithm;
+
 import java.util.Arrays;
 public class MinAbsoluteDiff {
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package Vansh.Pattern_Advanced;
-
 public class floyds_triangle {
     public static void floTri(int n){
         int num =1;

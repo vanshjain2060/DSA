@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class printSumof_N {
     
     public static int printSum(int n) {

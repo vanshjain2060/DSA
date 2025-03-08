@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class function_argument {
     public static void update(int marks[] ,int unchangeable){

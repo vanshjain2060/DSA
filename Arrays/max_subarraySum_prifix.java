@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 public class max_subarraySum_prifix {
 
     public static void maxSubarraySum(int numbers[]){

@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class Mthod_Overloading {
     public static void main(String[] args) {
         Calculator calc = new Calculator();

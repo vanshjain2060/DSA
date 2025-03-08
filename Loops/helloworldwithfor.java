@@ -1,5 +1,3 @@
-package Vansh.Loops;
-
 public class helloworldwithfor {
     public static void main(String[] args) {
     

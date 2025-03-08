@@ -1,5 +1,3 @@
-package Vansh.Pattern;
-
 public class Floyds_triangle_pattern {
     public static void main(String[] args) {
         int n =5;
@@ -11,4 +9,4 @@ public class Floyds_triangle_pattern {
             } System.out.println();
         }
     }
-}       
+}

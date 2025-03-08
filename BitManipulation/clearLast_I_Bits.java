@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class clearLast_I_Bits {
     public static int clearlastBits(int n,int i) {

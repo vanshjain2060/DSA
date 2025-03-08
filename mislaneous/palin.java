@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 public class palin {
     public static boolean isPalindrome(String s) {
         if (s.isEmpty()) {

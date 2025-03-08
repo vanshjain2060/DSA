@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class pairs {
     public static void printPairs(int numbers[]){

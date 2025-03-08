@@ -1,5 +1,3 @@
-package Vansh.Two_D_Arrays;
-
 import java.util.Scanner;
 public class creationof2D_Array {
 

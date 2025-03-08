@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class SingleLevel_Inheritance {
     public static void main(String[] args) {
         Fish shark = new Fish();

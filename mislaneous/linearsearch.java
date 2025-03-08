@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 class linearsearch {
     public static void main(String[] args) {
     int[] arr={1,3,45,22,13};

@@ -1,5 +1,3 @@
-
-
 public class firstLettertoUpperCase {
     public static String toUpperCase(String str){
        StringBuilder sb = new StringBuilder("");

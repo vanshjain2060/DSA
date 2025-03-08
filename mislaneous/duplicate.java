@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 public class duplicate {
     
     public static int removeDuplicates1(int[] nums) {
@@ -12,9 +10,6 @@ public class duplicate {
                 count++;
             }
         }
-        //  for (int ij=0; ij<numss.length; ij++) {
-        //     System.out.print(numss[ij] + " ");
-        // }
         return  count;
     }
 
@@ -34,7 +29,6 @@ public class duplicate {
         int nums[] = {0,0,1,1,1,2,2,3,4,4,5};
         System.out.println(removeDuplicates1(nums));
        
-        
     }
 
 }

@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class bintodec {
     public static void main(String[] args) {
         System.out.println(btod(1001, 0)); // binary to decimal

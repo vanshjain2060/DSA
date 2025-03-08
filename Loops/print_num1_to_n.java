@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.*;
 public class print_num1_to_n {
     public static void main(String[] args) {

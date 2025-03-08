@@ -1,5 +1,3 @@
-package Vansh.BitManipulation;
-
 public class binaryAND {
     
     /*  Basically yeh AND gate ki tarah he work karega

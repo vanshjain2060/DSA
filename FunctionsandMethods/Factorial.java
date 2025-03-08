@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class Factorial {
 public static int fact (int n){

@@ -1,5 +1,3 @@
-package Vansh.Queues;
-
 import java.util.Stack;
 
 public class UsingTwoStack {

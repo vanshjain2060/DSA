@@ -1,5 +1,3 @@
-package Vansh.Questions;
-
 public class factor {
     public static void main(String[] args) {
         // fact(20);

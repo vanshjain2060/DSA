@@ -1,4 +1,3 @@
-package Vansh.Pattern_Advanced;
 public class hollow_rectangle {
 
 public static void hollow_Rectangle(int totRow , int totCol){

@@ -1,5 +1,3 @@
-package Vansh.Two_D_Arrays;
-
 public class diagonalSum {
     
     public static int diagonalSumm(int matrix[][]){

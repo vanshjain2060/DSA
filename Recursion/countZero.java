@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class countZero {
     static int count(int n , int i){
         if(n == 0) return i; 

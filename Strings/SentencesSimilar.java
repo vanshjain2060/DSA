@@ -1,5 +1,3 @@
-
-
 public class SentencesSimilar {
 
     // Function to check if sentences are similar

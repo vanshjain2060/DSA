@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class binaryLeftShift {
     /* example lete hai 5<<2 then 

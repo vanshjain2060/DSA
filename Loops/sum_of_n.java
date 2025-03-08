@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.*;
 public class sum_of_n{
      public static void main(String args[]){

@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class question_2 {
     public static int findIndex(int nums[] , int target){

@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class max_subarraySum_bruteForce {
     public static void printMaxsum(int numbers[]){

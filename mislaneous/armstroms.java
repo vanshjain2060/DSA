@@ -1,5 +1,3 @@
-// package Vansh.mislaneous;
-
 public class armstroms {
     public static void main(String[] args) {
         int n =103 ;

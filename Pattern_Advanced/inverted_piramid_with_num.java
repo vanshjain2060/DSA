@@ -1,5 +1,3 @@
-package Vansh.Pattern_Advanced;
-
 public class inverted_piramid_with_num {
     /**
      * @param n

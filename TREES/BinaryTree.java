@@ -1,4 +1,3 @@
-package Vansh.TREES;
 import java.util.*;
 public class BinaryTree {
 

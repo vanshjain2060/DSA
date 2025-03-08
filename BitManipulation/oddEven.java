@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class oddEven {
     public static void oddeven(int n) {

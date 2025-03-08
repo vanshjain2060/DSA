@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 import java.util.Scanner;
 
 public class Packages {

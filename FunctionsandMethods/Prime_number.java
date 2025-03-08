@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class Prime_number {
    // only for n>=2

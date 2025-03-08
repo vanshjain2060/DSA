@@ -1,4 +1,3 @@
-package Vansh.BinaryTrees;
 
 public class checkSubTree {
     

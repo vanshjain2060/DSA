@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class lastOccurence {
     public static int last(int arr[],int i,int key){
         if(i < 0){

@@ -1,5 +1,3 @@
-package Vansh.Stacks;
-
 import java.util.*;
 
 public class PushBottom {

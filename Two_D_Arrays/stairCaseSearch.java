@@ -1,5 +1,3 @@
-package Vansh.Two_D_Arrays;
-
 import java.util.Arrays;
 
 public class stairCaseSearch {

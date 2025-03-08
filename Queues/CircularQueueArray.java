@@ -1,5 +1,3 @@
-package Vansh.Queues;
-
 public class CircularQueueArray {
     static class Queue {
         static int arr[];

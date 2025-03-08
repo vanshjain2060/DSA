@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class binary_search {
     public static int binSearch(int numbers[],int key){

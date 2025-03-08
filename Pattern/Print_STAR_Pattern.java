@@ -1,5 +1,3 @@
-package Vansh.Pattern;
-
 public class Print_STAR_Pattern {
     public static void main(String[] args) {
         for(int line=1;line<=6; line++ ){

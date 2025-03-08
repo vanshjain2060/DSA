@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class Sotcks {
     public static int buyAndSellStocks(int prices[]){

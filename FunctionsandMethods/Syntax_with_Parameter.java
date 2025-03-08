@@ -1,4 +1,4 @@
-package Vansh.FunctionsandMethods;
+
 /*   syntax
 returnType name (type param 1,type param 2){
     //body

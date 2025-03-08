@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class binaryRightShift {
     /* yeh just leftshift ka opposite hai

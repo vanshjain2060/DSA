@@ -1,4 +1,3 @@
-package Vansh.DivideConcure;
 
 public class searchInRotated {
      static int search(int arr[] , int target , int s, int e){

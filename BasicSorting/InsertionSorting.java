@@ -1,4 +1,3 @@
-package Vansh.BasicSorting;
 
 public class InsertionSorting {
 

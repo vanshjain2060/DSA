@@ -1,5 +1,3 @@
-package Vansh.Stacks;
-
 import java.util.Stack;
 
 public class MaxArea {

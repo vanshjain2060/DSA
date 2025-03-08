@@ -1,5 +1,3 @@
-package Vansh.Questions;
-
 public class GCD {
     public static void main(String[] args) {
         System.out.println(gcd(4,9));

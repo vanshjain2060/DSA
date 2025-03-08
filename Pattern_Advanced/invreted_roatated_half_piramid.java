@@ -1,5 +1,3 @@
-package Vansh.Pattern_Advanced;
-
 public class invreted_roatated_half_piramid {
     public static void invreted_Roatated_Half_Piramid(int n){
         //outer loop for rows 

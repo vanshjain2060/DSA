@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.*;
 public class que_on_continue {
     public static void main(String[] args) {

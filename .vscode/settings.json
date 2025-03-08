@@ -1,0 +1,28 @@
+{
+    "java.project.sourcePaths": [
+        "mislaneous",
+        "Two_D_Arrays",
+        "TREES",
+        "Strings",
+        "Stacks",
+        "Recursion",
+        "RECURSIONkunal",
+        "Queues",
+        "Questions",
+        "Pattern",
+        "OOPs",
+        "Loops",
+        "LinkedList2",
+        "LinkedList1",
+        "GreedyAlgorithm",
+        "FunctionsandMethods",
+        "DivideConcure",
+        "BitManipulation",
+        "BinaryTrees",
+        "BasicSorting",
+        "BackTracking",
+        "Arrays",
+        "Pattern_Advanced"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}

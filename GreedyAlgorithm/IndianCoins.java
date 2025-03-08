@@ -1,4 +1,4 @@
-package Vansh.GreedyAlgorithm;
+
 
 import java.util.ArrayList;
 import java.util.List;

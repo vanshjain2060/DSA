@@ -1,4 +1,3 @@
-// package Vansh.mislaneous;
 public class firstMissingPositive {
     public static void main(String[] args) {
         int nums[] = {-1,1,5,3,4};

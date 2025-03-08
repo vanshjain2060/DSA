@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class printXtoNoptimised {
     public static int optimizedpower(int x,int n){

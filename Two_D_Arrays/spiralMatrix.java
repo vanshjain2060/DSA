@@ -1,5 +1,3 @@
-package Vansh.Two_D_Arrays;
-
 public class spiralMatrix {
 
    public static void printSpiral(int matrix[][]) {

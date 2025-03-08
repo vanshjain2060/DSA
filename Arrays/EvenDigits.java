@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class EvenDigits {
     public static void main(String[] args) {

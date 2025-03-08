@@ -1,5 +1,3 @@
-package Vansh.LinkedList1;
-
 public class LL {
     
     private Node head;

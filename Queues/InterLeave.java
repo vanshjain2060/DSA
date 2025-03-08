@@ -1,5 +1,5 @@
-package Vansh.Queues;
 import java.util.*;
+import java.util.LinkedList;
 public class InterLeave {
     public static void interLeave(Queue<Integer> q) {
         Queue<Integer> firstHalf = new LinkedList<>();

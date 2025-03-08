@@ -1,4 +1,3 @@
-package Vansh.Loops;
 import java.util.Scanner;
 public class print_numbers_with_for {
     public static void main(String[] args) {

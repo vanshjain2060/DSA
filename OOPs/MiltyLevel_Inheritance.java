@@ -1,5 +1,3 @@
-package Vansh.OOPs;
-
 public class MiltyLevel_Inheritance {
     public static void main(String[] args) {
         Dog tommy = new Dog();

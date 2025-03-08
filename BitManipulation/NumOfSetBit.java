@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class NumOfSetBit {
     public static void main(String[] args) {

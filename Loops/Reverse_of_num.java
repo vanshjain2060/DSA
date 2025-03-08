@@ -1,5 +1,3 @@
-package Vansh.Loops;
-
 public class Reverse_of_num {
     public static void main(String[] args) {
         int n = 235689;

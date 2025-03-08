@@ -1,4 +1,3 @@
-package Vansh.LinkedList2;
 import java.util.LinkedList;
 public class Classroom {
     

@@ -1,4 +1,3 @@
-package Vansh.FunctionsandMethods;
 
 public class Binomial_Coefficient {
       

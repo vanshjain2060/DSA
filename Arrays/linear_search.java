@@ -1,4 +1,3 @@
-package Vansh.Arrays;
 
 public class linear_search {
   public static int linearSearch(int numbers[] , int key){

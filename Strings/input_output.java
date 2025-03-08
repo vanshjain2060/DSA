@@ -1,6 +1,3 @@
-
-// import java.util.Scanner;
-
 public class input_output {
 
   // String char At method

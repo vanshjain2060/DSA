@@ -1,4 +1,3 @@
-package Vansh.Recursion;
 
 public class printXtopowerN {
     public static int XtoN(int x , int n){

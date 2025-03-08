@@ -1,4 +1,3 @@
-package Vansh.BitManipulation;
 
 public class clearRangeOfBits {
     public static int clearinRange(int n, int i, int j) {

@@ -1,5 +1,3 @@
-package Vansh.LinkedList1;
-
 public class MainLL {
     public static void main(String[] args) {
         LL list = new LL();

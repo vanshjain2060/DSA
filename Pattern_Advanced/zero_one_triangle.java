@@ -1,5 +1,3 @@
-package Vansh.Pattern_Advanced;
-
 public class zero_one_triangle {
     public static  void zero_one_tri(int n){
         for(int i =1 ; i<=n;i++){

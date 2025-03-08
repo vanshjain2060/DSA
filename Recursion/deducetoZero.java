@@ -1,5 +1,3 @@
-package Vansh.Recursion;
-
 public class deducetoZero {
     public static void main(String[] args) {
         System.out.println(steps(14 ,0));

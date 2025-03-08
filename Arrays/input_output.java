@@ -1,5 +1,3 @@
-package Vansh.Arrays;
-
 import java.util.Scanner;
 
 public class input_output {

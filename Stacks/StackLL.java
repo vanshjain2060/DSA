@@ -1,5 +1,3 @@
-package Vansh.Stacks;
-
 public class StackLL {
     
     static class Node {
