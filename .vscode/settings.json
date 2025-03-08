@@ -9,6 +9,7 @@
         "RECURSIONkunal",
         "Queues",
         "Questions",
+        "Pattern_Advanced",
         "Pattern",
         "OOPs",
         "Loops",
@@ -22,7 +23,7 @@
         "BasicSorting",
         "BackTracking",
         "Arrays",
-        "Pattern_Advanced"
+        "DynamicProgramming"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
