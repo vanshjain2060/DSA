@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class allPermutaion {
 
@@ -20,7 +23,15 @@ public class allPermutaion {
         String str = "abc" ;
         Permutaion(str, "");
         System.out.println();
+
         Permutaion(str, "", new boolean[str.length()]);
+        System.out.println();
+
+        int[] nums = {1, 1, 2};
+        Arrays.sort(nums); // Sort to handle duplicates
+        List<List<Integer>> result = new ArrayList<>();
+        permutationTwo(nums, new ArrayList<>(), result, new boolean[nums.length]);
+        System.out.println(result);
     }
 
     private static void Permutaion(String s, String curr, boolean[] used) {
@@ -35,6 +46,27 @@ public class allPermutaion {
             used[i] = true;
 
             Permutaion(s, curr+s.charAt(i), used);
+
+            used[i] = false;
+        }
+    }
+
+
+    // this is when there are duplicates
+    private static void permutationTwo(int[] nums, List<Integer> curr, List<List<Integer>> list, boolean[] used) {
+        if (curr.size() == nums.length) {
+            list.add(new ArrayList<>(curr));
+            return;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (used[i] || (i > 0 && nums[i] == nums[i - 1] && !used[i - 1])) continue;
+
+            used[i] = true;
+
+            curr.add(nums[i]);
+            permutationTwo(nums, curr, list, used);
+            curr.remove(curr.size() - 1);
 
             used[i] = false;
         }
