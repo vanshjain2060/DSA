@@ -4,7 +4,7 @@ public class allPermutaion {
     static void Permutaion(String str , String ans) {
         // base case
         if(0 == str.length()) {
-            System.out.println(ans);
+            System.out.print(ans + " ");
             return;
         }
         // recursion
@@ -15,8 +15,28 @@ public class allPermutaion {
             Permutaion(str1, ans+curr);
         }
     }
+
     public static void main(String[] args) {
         String str = "abc" ;
         Permutaion(str, "");
+        System.out.println();
+        Permutaion(str, "", new boolean[str.length()]);
+    }
+
+    private static void Permutaion(String s, String curr, boolean[] used) {
+        if(curr.length() == s.length()) {
+            System.out.print(curr + " ");
+            return;
+        }
+
+        for(int i=0; i<s.length(); i++) {
+            if(used[i]) continue;
+
+            used[i] = true;
+
+            Permutaion(s, curr+s.charAt(i), used);
+
+            used[i] = false;
+        }
     }
 }
