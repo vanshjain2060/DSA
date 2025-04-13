@@ -10,19 +10,17 @@ public class quickSort {
 
     static int partition(int arr[], int si, int ei){
         int pivot = arr[ei];
-        int i = si-1 ; // this is made to make space for elements smaller than pivot 
+        int i = si ; // this is made to make space for elements smaller than pivot 
         
-        for(int j=si; j<ei; j++){
+        for(int j=si+1; j<ei; j++){
             if(arr[j] <= pivot){ // then swap arr[j]  with arr[i]
-                i++;
                 int temp = arr[j];
                 arr[j] = arr[i];
-                arr[i] = temp;
+                arr[i++] = temp;
             }
         }
-        i++;
-        int temp = arr[ei]; // basically arr[ei] = pivot
-        arr[ei] = arr[i];
+        int temp = pivot;
+        pivot = arr[i];
         arr[i] = temp;
         return i;
     }

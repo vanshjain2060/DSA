@@ -17,13 +17,14 @@
         "LinkedList1",
         "GreedyAlgorithm",
         "FunctionsandMethods",
+        "DynamicProgramming",
         "DivideConcure",
         "BitManipulation",
         "BinaryTrees",
         "BasicSorting",
         "BackTracking",
         "Arrays",
-        "DynamicProgramming"
+        "Graph"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
