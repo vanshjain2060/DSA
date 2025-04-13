@@ -9,7 +9,7 @@ public class Input {
 
         for(int[] temp : graph) {
             matrix[temp[0]][temp[1]] = 1;
-            matrix[temp[1]][temp[0]] = 1;
+            matrix[temp[1]][temp[0]] = 1;  // if it is directed graph then remove this line
         }
         for(int[] temp : matrix) {
             System.out.println(Arrays.toString(temp));
@@ -26,7 +26,7 @@ public class Input {
         }
         for(int[] temp : graph) {
             list.get(temp[0]).add(temp[1]);
-            list.get(temp[1]).add(temp[0]);
+            list.get(temp[1]).add(temp[0]); // if it is directed graph then remove this line
         }
         System.out.println(list);
     }
