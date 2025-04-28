@@ -1,14 +1,6 @@
 
 public class DetectCycleDirected extends Input{
     public static void main(String[] args) {
-        int[][] arr = {
-            {0, 1},
-            {0, 2},
-            {1, 2},
-            {2, 0},
-            {2, 3}
-        };
-
         int[][] edges = {{1, 2}, {2}, {0,3}, {}};
 
 
