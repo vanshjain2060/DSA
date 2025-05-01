@@ -2,8 +2,6 @@
 public class DetectCycleDirected extends Input{
     public static void main(String[] args) {
         int[][] edges = {{1, 2}, {2}, {0,3}, {}};
-
-
         System.out.println(isCyclic(5, edges));
     }
 
