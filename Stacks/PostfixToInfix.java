@@ -14,7 +14,6 @@ public class PostfixToInfix {
                 String operand2 = stack.pop();
                 String operand1 = stack.pop();
 
-                // Form the infix expression by wrapping it in parentheses
                 String infix = "(" + operand1 + c + operand2 + ")";
                 stack.push(infix);
             }

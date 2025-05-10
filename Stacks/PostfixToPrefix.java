@@ -12,8 +12,7 @@ public class PostfixToPrefix {
             } else {
                 String operand2 = stack.pop();
                 String operand1 = stack.pop();
-
-                // Form the prefix expression by placing the operator before the operands
+                
                 String prefix = c + operand1 + operand2;
                 stack.push(prefix);
             }

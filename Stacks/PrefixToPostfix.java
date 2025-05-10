@@ -1,7 +1,7 @@
 import java.util.Stack;
 
-public class PrefixToInfix {
-    public static String prefixToInfix(String exp) {
+public class PrefixToPostfix {
+    public static String prefixToPostfix(String exp) {
         Stack<String> stack = new Stack<>();
 
         for (int i = exp.length() - 1; i >= 0; i--) {
@@ -12,9 +12,9 @@ public class PrefixToInfix {
             } else {
                 String operand1 = stack.pop();
                 String operand2 = stack.pop();
-
-                String infix = "(" + operand1 + c + operand2 + ")";
-                stack.push(infix);
+                
+                String postfix = operand1 + operand2 + c;
+                stack.push(postfix);
             }
         }
         return stack.pop();
@@ -23,6 +23,6 @@ public class PrefixToInfix {
     public static void main(String[] args) {
         String exp = "*+pq-mn";
         System.out.println("Prefix expression: " + exp);
-        System.out.println("Infix expression: " + prefixToInfix(exp));
+        System.out.println("Postfix expression: " + prefixToPostfix(exp));
     }
 }
