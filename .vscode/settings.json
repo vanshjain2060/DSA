@@ -16,6 +16,7 @@
         "LinkedList2",
         "LinkedList1",
         "GreedyAlgorithm",
+        "Graph",
         "FunctionsandMethods",
         "DynamicProgramming",
         "DivideConcure",
@@ -24,7 +25,7 @@
         "BasicSorting",
         "BackTracking",
         "Arrays",
-        "Graph"
+        "Tries"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
