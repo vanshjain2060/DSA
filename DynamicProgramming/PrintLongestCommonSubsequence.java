@@ -37,11 +37,32 @@ public class PrintLongestCommonSubsequence {
         return dp[n1][n2];
     }
 
+    public static int longestCommonSubsequenceMemo(String s1, String s2) {
+        int n1 = s1.length(), n2 = s2.length();
+        Integer[][] dp = new Integer[n1 + 1][n2 + 1];
+        return helper(n1, n2, s1, s2, dp);
+    }
+
+    private static int helper(int i, int j, String s1, String s2, Integer[][] dp) {
+        if (i == 0 || j == 0) return 0;
+
+        if (dp[i][j] != null) return dp[i][j];
+
+        if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
+            return dp[i][j] = 1 + helper(i - 1, j - 1, s1, s2, dp);
+        } else {
+            return dp[i][j] = Math.max(helper(i - 1, j, s1, s2, dp), helper(i, j - 1, s1, s2, dp));
+        }
+    }
+
     public static void main(String[] args) {
         String s1 = "abcde";
         String s2 = "ace";
 
         int length = longestCommonSubsequence(s1, s2);
         System.out.println("Length of LCS: " + length);
+
+        int lengthMemo = longestCommonSubsequenceMemo(s1, s2);
+        System.out.println("Length of LCS using Memoization: " + lengthMemo);
     }
 }

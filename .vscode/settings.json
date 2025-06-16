@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "mislaneous",
         "Two_D_Arrays",
+        "Tries",
         "TREES",
         "Strings",
         "Stacks",
@@ -25,7 +26,7 @@
         "BasicSorting",
         "BackTracking",
         "Arrays",
-        "Tries"
+        "Infosys"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
