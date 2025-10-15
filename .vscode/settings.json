@@ -16,17 +16,20 @@
         "Loops",
         "LinkedList2",
         "LinkedList1",
+        "Infosys",
         "GreedyAlgorithm",
         "Graph",
         "FunctionsandMethods",
         "DynamicProgramming",
         "DivideConcure",
+        "CodeForces",
+        "CPTemplates",
         "BitManipulation",
         "BinaryTrees",
         "BasicSorting",
         "BackTracking",
         "Arrays",
-        "Infosys"
+        "Collections_Framework"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
